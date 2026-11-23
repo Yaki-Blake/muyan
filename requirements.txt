@@ -1,0 +1,13 @@
+PySide6>=6.6
+numpy>=1.26
+soundcard>=0.4.3
+websocket-client>=1.7
+requests>=2.31
+
+# 中文简繁统一（whisper 会随机输出繁体）
+opencc-python-reimplemented>=0.1.7
+
+# 本地离线识别（不需要 API Key）
+faster-whisper>=1.0.3
+# faster-whisper 1.2.x 依赖 av 的 metadata_errors 参数，av 19 已移除，必须钉在 15.x
+av>=15.0,<16

@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+build_tmp/
+成品/
+.venv/
+*.spec
+tests/out/
