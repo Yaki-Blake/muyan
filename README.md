@@ -8,8 +8,8 @@ Windows 系统声音实时字幕。抓取扬声器正在播放的声音，识别
 
 | 压缩包 | 内容 | 前提 |
 |---|---|---|
-| 幕言-Windows-免安装版.zip | 单个 exe，双击即用；云知声、百炼、硅基流动等联网识别可用 | 不用装 Python；不含本地离线模型 |
-| 幕言-源码版.zip | 完整 Python 源码，含本地 faster-whisper 离线识别 | 电脑已装 Python 3.10+ |
+| muyan-windows-portable.zip（免安装版） | 单个 exe，双击即用；云知声、百炼、硅基流动等联网识别可用 | 不用装 Python；不含本地离线模型 |
+| muyan-source.zip（源码版） | 完整 Python 源码，含本地 faster-whisper 离线识别 | 电脑已装 Python 3.10+ |
 
 两个版本首次启动都会要求设置：选服务商、填 API Key，部分服务商还需要填 Base URL。Key 明文保存在 `%APPDATA%\MuYan\config.json`，不要分享这个文件。
 
